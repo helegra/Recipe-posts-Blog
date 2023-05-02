@@ -1,0 +1,4094 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://hel12345.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-19]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-19">Элементы интерфейса расположены и отцентрированы не в соответствии с макетом в лентах своих и чужих постов</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10025-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-164756.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-165001.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a>  в ленте Своих постов</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание внешний вид страницы ленты своих постов - область сверху справа над своими постами.</li>
+	<li>Переключить тумблер на ленту Чужих постов</li>
+	<li>Обратить внимание внешний вид страницы - область сверху справа над чужими постами</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Элемент тумблер переключения между своими и чужими постами не слева от превью (бодибар), а над постами.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10035/10035_image-20230419-164756.png" height="165" width="348" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Имеющиеся элементы интерфейса расположены и отцентрированы в соответствии с макетом</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10034/10034_image-20230419-165001.png" height="205" width="284" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-18]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-18">Отсутствие элементов-ссылок для скачивания на внешний ресурс App Store и Google Pay в лентах своих и чужих постов</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10024-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-163259.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-163337.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a>  в ленте Своих постов</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание внешний вид страницы ленты своих постов - область снизу слева под своими постами.</li>
+	<li>Переключить тумблер на ленту Чужих постов</li>
+	<li>Обратить внимание внешний вид страницы - область снизу слева под чужими постами</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствуют элементы-ссылки для скачивания на внешний ресурс (App Store и Google Pay)</p>
+
+<p>Верстка страниц десктоп версии сайта не соответствует листам макета.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10032/10032_image-20230419-163337.png" height="288" width="531" style="border: 0px solid black" /></span></p>
+
+
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>В наличии ссылки для скачивания на внешний ресурс -  App Store и Google Pay. </p>
+
+<p>Расположение- в соответствии с макетом.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10033/10033_image-20230419-163259.png" height="248" width="422" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-17]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-17">Отсутствие ссылок на Лицензионное соглашение и Помощь в лентах своих и чужих постов</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10023-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-162801.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-162856.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a>  в ленте Своих постов</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание внешний вид страницы ленты своих постов - область снизу справа под своими постами.</li>
+	<li>Переключить тумблер на ленту Чужих постов</li>
+	<li>Обратить внимание внешний вид страницы - область снизу справа под чужими постами</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствует ссылка на Лицензионное соглашение и ссылка на Помощь</p>
+
+<p>Верстка страниц десктоп версии сайта не соответствует листам макета.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10030/10030_image-20230419-162856.png" height="301" width="543" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>В наличии ссылка на Лицензионное соглашение и ссылка на Помощь. Расположение- в соответствии с макетом.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10031/10031_image-20230419-162801.png" height="220" width="445" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-16]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-16">Отсутствие блока ссылок на посты в социальных сетях в лентах своих и чужих постов</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10022-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-162229.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-162322.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a>  в ленте Своих постов</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание внешний вид страницы ленты своих постов - область снизу слева под своими постами.</li>
+	<li>Переключить тумблер на ленту Чужих постов</li>
+	<li>Обратить внимание внешний вид страницы - область снизу слева под чужими постами</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствует блок ссылок на социальные сети ВКонтакте и Одноклассники.</p>
+
+<p>Верстка страниц десктоп версии сайта не соответствует листам макета.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10029/10029_image-20230419-162322.png" height="381" width="560" style="border: 0px solid black" /></span></p>
+
+
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>В наличии блок ссылок на социальные сети ВКонтакте и Одноклассники. Расположение- в соответствии с макетом.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10028/10028_image-20230419-162229.png" height="270" width="502" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-15]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-15">Отсутствие Поиска по постам в лентах Своих и Чужих постов</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10021-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-161355.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-161451.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a>  в ленте Своих постов</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание внешний вид страницы ленты своих постов - область над своими постами.</li>
+	<li>Переключить тумблер на ленту Чужих постов</li>
+	<li>Обратить внимание внешний вид страницы - область над чужими постами</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствует Функциональность-Поиск по названию поста В ленте Своих и Чужих постов</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10027/10027_image-20230419-161451.png" height="172" width="1148" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Работает поиск по названию поста в лентах своих и чужих постов. Расположение- в соответствии с макетом.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10026/10026_image-20230419-161355.png" height="168" width="1066" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-14]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-14">Изменение расположения элементов на странице чужих постов при переводе страницы на другой язык - кириллицу</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10020-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-160102.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> в ленте Чужих постов</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Кликнуть правой клавишей мыши на странице Чужих постов.</li>
+	<li>В предложенном меню выбрать “Перевести на русский”</li>
+	<li>Обратить внимание на сортировку- тумблер переключения на Свои-Чужие посты</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>При переводе страницы на кириллицу, элементы меняют свое расположение: элемент "Сортировать" перевернут</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10025/10025_image-20230419-160102.png" height="258" width="571" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Все элементы сайта переведены на русский язык, расположены и отцентрированы в соответствии с макетом</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-13]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-13">Элементы сайта не переведены на язык, соответствующий локализации-русский</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10019-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-154445.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-154520.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован и находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a></p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание на  Хедер, тумблер переключения на Свои-Чужие посты,  кнопки перехода по страницам</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Элементы: Хедер, Блог, тумблер переключения на Чужие посты, кнопки перехода по страницам имеют язык реализации - английский.</p>
+
+<ol>
+	<li>Название кнопки Главная на английском языке (Home), О нас - About (us -пропущено), Контакты - Contact (s). Блог - Blog.</li>
+	<li>Тумблер переключения - Order</li>
+	<li>Чужие посты-Not my Pages</li>
+	<li>Следующая страница- Next Page, предыдущая страница - Previous Page</li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10023/10023_image-20230419-154520.png" height="164" width="795" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Все элементы сайта переведены на соответствующий (по ТЗ и макету) локализации язык</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10024/10024_image-20230419-154445.png" height="230" width="1114" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-12]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-12">Окрашивание сердечка при добавлении Чужого поста в избранное не происходит</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10018-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-151717.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-152003.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге Чужих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание на внешний вид страницы превью Чужих постов</li>
+	<li>Сравнить с ТЗ и макетом</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствие возможности добавить пост в избранное.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10021/10021_image-20230419-152003.png" width="33%" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>При добавлении поста другого пользователя в избранное нажатием на сердечко в углу поста, сердечко закрашивается красным</p>
+
+<p>Страница макета: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10020/10020_image-20230419-151717.png" height="376" width="303" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-11]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-11">Отсутствие возможности добавить пост в ленте Чужих постов в избранное</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10017-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-152003.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-152839.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге Чужих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание на внешний вид страницы превью Чужих постов</li>
+	<li>Сравнить с ТЗ и макетом</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствие реализации данной функциональности - нет возможность добавить пост в избранное.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10019/10019_image-20230419-152003.png" width="33.33333333333333%" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Добавление поста другого пользователя в избранное нажатием на сердечко в углу поста</p>
+
+<p>Страница макета: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10022/10022_image-20230419-152839.png" height="370" width="252" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-10]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-10">Отсутствие фильтров “Дата от” и “Дата до” для поиска Чужих постов по дате</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-150645.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-150725.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге Чужих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание на внешний вид страницы превью Чужих постов</li>
+	<li>Сравнить с ТЗ и макетом</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствуют фильтры для поиска постов, данная функциональность не реализована</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10017/10017_image-20230419-150725.png" width="33.33333333333333%" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Наличие фильтров “Дата от” и “Дата до” для поиска постов по дате</p>
+
+<p>Страница макета: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10016/10016_image-20230419-150645.png" height="513" width="609" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-9]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-9">Нарушение хронологии выдачи постов в ленте Чужих постов при переходе на следующую или предыдущую страницы</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10015-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-145704.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-145822.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге Чужих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Нажать несколько раз на кнопку “Next page” для перехода на следующие страницы.</li>
+	<li>Вернуться на первую страницу, нажимая кнопку Предыдущая страница (Previous page)</li>
+	<li>Обратить внимание на порядок выдачи постов .</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>При переходе по страницам к следующим постам, с последующим возвратом на первую страницу, нарушен хронологический порядок выдачи постов.</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Перемещение по страницам к старым постам при нажатии кнопки "Next Page"</p>
+
+<p>Возврат к страницам с новыми постами при нажатии кнопки "Previous Page"</p>
+
+<p><b>Скрины</b>:</p>
+
+<p>Фактическая выдача: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10015/10015_image-20230419-145704.png" height="578" width="400" style="border: 0px solid black" /></span></p>
+
+<p>Ожидаемая выдача - должен быть первым в ленте:</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10014/10014_image-20230419-145822.png" height="382" width="423" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-8]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-8">Сортировка в ленте Чужих постов организована от старых постов к новым</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10014-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-143554.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-143656.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован, находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> в Блоге своих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Перейти в ленту постов чужих пользователей, переключив тумблер Not my Posts справа над постами.</li>
+	<li>Кликнуть на первый пост в ленте Чужих постов.</li>
+	<li>Обратить внимание на дату заведения поста.</li>
+	<li>Повторить пункты 2 и 3 для следующих постов.</li>
+	<li>Сравнить даты публикации и порядок выдачи постов.</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Сортировка постов организована от старых постов к более свежим публикациям.</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Сортировка постов организована от новых постов к старым</p>
+
+<p><b>Скрины</b>:</p>
+
+<p>Первый пост:</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10012/10012_image-20230419-143554.png" height="265" width="517" style="border: 0px solid black" /></span></p>
+
+<p>четвертый пост: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10013/10013_image-20230419-143656.png" height="290" width="463" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-7]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-7">Отсутствие фильтров “Дата от” и “Дата до” для поиска Своих постов по дате</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10013-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-135519.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-135557.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге своих постов.</p>
+
+<p>Пользователь создал более 4 постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Кликнуть на кнопку Главная в левом углу хедера.</li>
+	<li>Обратить внимание на внешний вид страницы превью своих постов</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Отсутствуют фильтры для поиска постов, данная функциональность не реализована</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10010/10010_image-20230419-135557.png" width="25%" style="border: 0px solid black" /></span></p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Наличие фильтров “Дата от” и “Дата до” для поиска постов по дате</p>
+
+<p>Страница макета: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10011/10011_image-20230419-135519.png" width="33.33333333333333%" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-6]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-6">Нарушение хронологии выдачи постов в ленте своих постов после изменения сортировки при переходе на Предыдущую страницу</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10012-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-132924.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-133122.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-133821.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге своих постов.</p>
+
+<p>Пользователь создал более 8 постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Кликнуть на кнопку Главная в левом углу хедера.</li>
+	<li>Кликнуть дважды на иконку сортировки над постами справа вверху.</li>
+	<li>Перейти дважды на следующую страницу (Next page)</li>
+	<li>Вернуться на первую страницу, дважды нажав кнопку Предыдущая страница (Previous page)</li>
+	<li>Обратить внимание на порядок выдачи постов в зависимости от даты и времени их заведения.</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>После изменения сортировки при переходе на Предыдущую страницу, нарушен хронологический порядок выдачи постов.</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Перемещение по страницам к новым постам при нажатии кнопки "Предыдущая"</p>
+
+<p><b>Скрины</b>:</p>
+
+<p>Фактическая выдача: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10009/10009_image-20230419-133821.png" height="307" width="797" style="border: 0px solid black" /></span></p>
+
+<p>Ожидаемая выдача - должен быть первым в ленте:</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10007/10007_image-20230419-132924.png" width="50%" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-5]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-5">Нарушение хронологии выдачи постов в ленте своих постов после изменения сортировки при переходе на Следующую страницу</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10011-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-132924.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-133122.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> , находится в Блоге своих постов.</p>
+
+<p>Пользователь создал более 8 постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Кликнуть на кнопку Главная в левом углу хедера.</li>
+	<li>Кликнуть дважды на иконку сортировки над постами справа вверху.</li>
+	<li>Перейти на следующую страницу (Next page)</li>
+	<li>Обратить внимание на порядок выдачи постов в зависимости от даты и времени их заведения.</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>После изменения сортировки при переходе на Следующую страницу, нарушен хронологический порядок выдачи постов</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Перемещение по страницам к старым постам при нажатии кнопки "Следующая"</p>
+
+<p><b>Скрины</b>:</p>
+
+<p>Фактическая выдача: </p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10005/10005_image-20230419-132924.png" height="298" width="809" style="border: 0px solid black" /></span></p>
+
+<p>Ожидаемая выдача - должен быть последним в ленте:</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10006/10006_image-20230419-133122.png" height="311" width="393" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-4]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-4">Сортировка своих постов при клике на иконку происходит не с первого раза</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-131202.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-131306.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован, находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> в Блоге своих постов.</p>
+
+<p>Пользователь создал более 4 постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Кликнуть на кнопку Главная в левом углу хедера.</li>
+	<li>Кликнуть на кнопку Сортировать (Order) над постами справа вверху/нажать иконку сортировки.</li>
+	<li>Обратить внимание на порядок сортирования постов в зависимости от даты и времени их заведения.</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>При первом клике на иконку не изменяется сортировка. Она изменяется только при втором и последующих кликах</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>При клике на иконку можно изменить сортировку от старых постов к новым</p>
+
+<p><b>Скрины</b>:</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10003/10003_image-20230419-131202.png" height="738" width="760" style="border: 0px solid black" /></span></p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10004/10004_image-20230419-131306.png" height="728" width="769" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-3]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-3">Изображение поста в ленте своих постов не обрезается до соотношения сторон 2:3</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-125421.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован, находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> в Блоге своих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Создать новый пост, кликнув на крестик под названием Блог.</li>
+	<li>В модальном окне Create Post заполнить соответствующие поля данными.</li>
+	<li>Кликнув по полю New image, выбрать сохраненную картинку.</li>
+	<li>Нажать Save.</li>
+	<li>Обратить внимание на масштаб картинки. Проверить масштаб используя Devtools.</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>Изображения не обрезаются до соотношения сторон 2:3, вставляются в состоянии1:1</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>Картинки обрезаются до соотношения сторон 2:3 независимо от исходного формата</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10002/10002_image-20230419-125421.png" height="104" width="204" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DNHO-2]&nbsp;<a href="https://hel12345.atlassian.net/browse/DNHO-2">Отображение не более 4 постов в Превью своих постов</a>
+            <span class="subText">
+               Создано: 19/апр/23                   &nbsp;Обновлено: 19/апр/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://hel12345.atlassian.net/secure/BrowseProject.jspa?id=10002">Грачева__Итоговый проект</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                id="word_reporter_712020:e2bf2437-1122-4d92-882f-91dcdfa1211b"
+                href="https://hel12345.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ae2bf2437-1122-4d92-882f-91dcdfa1211b">
+                    Hel
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Среда:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>Браузер: Microsoft Edge Версия 111.0.1661.41 (Официальная сборка) (64-разрядная версия)<br/>
+ОС: Windows 10 Pro</td>
+</tr>
+</tbody></table>
+</div>
+
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Вложения:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://hel12345.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG файл">
+                    image-20230419-124318.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Описание дефекта:</b></p>
+
+<p><b>Предусловие:</b></p>
+
+<p>Пользователь авторизован, находится на сайте <a href="https://test-stand.gb.ru/seminar_stands/payform/index.html" class="external-link" rel="nofollow noreferrer">https://test-stand.gb.ru/</a> в Блоге своих постов.</p>
+
+<p>Пользователь создал и опубликовал как минимум 10 своих постов.</p>
+
+<p><b>Шаги воспроизведения:</b></p>
+
+<ol>
+	<li>Обратить внимание на внешний вид блога</li>
+</ol>
+
+
+<p><b>Фактический результат:</b></p>
+
+<p>На странице превью своих постов отображается не более 4 постов.</p>
+
+<p><b>Ожидаемый результат:</b></p>
+
+<p>На одной странице отображается превью из 10 постов.</p>
+
+<p><span class="image-wrap" style=""><img src="/secure/attachment/10001/10001_image-20230419-124318.png" height="740" width="756" style="border: 0px solid black" /></span></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Полученный Wed Apr 19 17:27:13 UTC 2023 Hel используя JIRA 1001.0.0-SNAPSHOT#100222-sha1:cb3bdf084a0470931823d8a46370b426b2e2fd2f.
+
+</body>
+</html>
